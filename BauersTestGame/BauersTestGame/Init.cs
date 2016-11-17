@@ -83,7 +83,7 @@ namespace BauersTestGame
         }
 
         public void doingMeh() {
-
+            Console.WriteLine("Doing meh");
         }
 
         public void notDoingMeh() {
