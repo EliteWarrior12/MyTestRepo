@@ -83,7 +83,7 @@ namespace BauersTestGame
         }
 
         public void doingMeh() {
-            Console.Write("Exterminus!;");
+            Console.Write("Heyo!;");
         }
             
         public void notDoingMeh() {
