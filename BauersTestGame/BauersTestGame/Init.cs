@@ -84,10 +84,11 @@ namespace BauersTestGame
 
         public void doingMeh() {
             Console.Write("Heyo!;");
+            Console.Write("in da house");
         }
             
         public void notDoingMeh() {
-            Console.Write("Wut?;");
+            
         }
 
     }
