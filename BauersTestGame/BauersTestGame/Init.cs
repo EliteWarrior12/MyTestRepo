@@ -87,7 +87,7 @@ namespace BauersTestGame
         }
             
         public void notDoingMeh() {
-
+            Console.Write("Wut?;");
         }
 
     }
