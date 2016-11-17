@@ -83,7 +83,7 @@ namespace BauersTestGame
         }
 
         public void doingMeh() {
-            Console.Write("No brakes!;");
+            Console.Write("More brakes!;");
         }
             
         public void notDoingMeh() {
