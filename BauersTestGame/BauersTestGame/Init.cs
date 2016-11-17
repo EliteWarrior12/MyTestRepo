@@ -82,6 +82,9 @@ namespace BauersTestGame
             base.Draw(gameTime);
         }
 
-        
+        public void doingMeh() {
+
+        }
+
     }
 }
