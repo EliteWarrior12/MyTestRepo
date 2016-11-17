@@ -1,18 +1,19 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace BauersTestGame
 {
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
-    public class Game1 : Game
+    public class Init : Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public Game1()
+        public Init()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -63,6 +64,7 @@ namespace BauersTestGame
                 Exit();
 
             // TODO: Add your update logic here
+            Console.WriteLine("ASDF");
 
             base.Update(gameTime);
         }
@@ -79,5 +81,11 @@ namespace BauersTestGame
 
             base.Draw(gameTime);
         }
+
+        public void doing() { 
+
+        }
+            
+        
     }
 }
