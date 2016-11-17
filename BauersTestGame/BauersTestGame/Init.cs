@@ -91,6 +91,7 @@ namespace BauersTestGame
             
         public void notDoingMeh() {
             Console.WriteLine("doing great");
+            Console.WriteLine("Not head, but dead");
         }
 
     }
