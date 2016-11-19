@@ -12,6 +12,7 @@ namespace BauersTestGame
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Texture2D bild;
 
         public Init()
         {
@@ -42,6 +43,7 @@ namespace BauersTestGame
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            bild=Content.Load<Texture2D>("bild");
         }
 
         /// <summary>
@@ -78,6 +80,9 @@ namespace BauersTestGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            spriteBatch.Draw(bild,new Vector2(0,0));
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
